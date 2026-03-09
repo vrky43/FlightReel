@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063C016A90DFDEE89CE2563B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CE76EDEEF85590504745DF /* Assets.xcassets */; };
+		08BBA8011507A8BA6F90D684 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724AFEC16EBD5DA5E062CB9A /* Models.swift */; };
+		14FEA2B145359E9A6EF03612 /* FlightReelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0380918A98E7C3FA28126090 /* FlightReelApp.swift */; };
+		22F2E975C76FB44399B6F503 /* BlackboxParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D248A87768A1D10F7193EA /* BlackboxParser.swift */; };
+		239BF8866D517250AB949A23 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23156F25563CD81189F50B9 /* MapViewRepresentable.swift */; };
+		5567821C95D9C232C61A256B /* LapListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B3CBCE579FC93ED26E4909 /* LapListView.swift */; };
+		71E946FC15F48F00716E76F5 /* LapDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C5787D6539857F591148B /* LapDetector.swift */; };
+		809ED8E7935B921192FF5911 /* GPXParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FCAD748756A8118372EE3 /* GPXParser.swift */; };
+		8279E7723A8A74DA2593EAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C0E4D9D59CAA7A781706C /* ContentView.swift */; };
+		9787A1D9C1D3C84C2164F74C /* MapLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7AF4B5C2325DEA93D2926 /* MapLayer.swift */; };
+		9E1D1A887A88EEB51EE02C7E /* ControlsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009D4B1C1EA1B76C73CDAD9F /* ControlsPanel.swift */; };
+		D3629A2F0938D3D853E81B79 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08EE8652C315132DD2EA3B4 /* AppState.swift */; };
+		F868CF8E9036BB93A6D7C1A2 /* ExportAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BB3E8E59141623425EA /* ExportAnimationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		009D4B1C1EA1B76C73CDAD9F /* ControlsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsPanel.swift; sourceTree = "<group>"; };
+		029C5787D6539857F591148B /* LapDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapDetector.swift; sourceTree = "<group>"; };
+		0380918A98E7C3FA28126090 /* FlightReelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightReelApp.swift; sourceTree = "<group>"; };
+		1A04A9A6073933992911D434 /* FlightReel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightReel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D248A87768A1D10F7193EA /* BlackboxParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackboxParser.swift; sourceTree = "<group>"; };
+		63B7AF4B5C2325DEA93D2926 /* MapLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLayer.swift; sourceTree = "<group>"; };
+		64B3CBCE579FC93ED26E4909 /* LapListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapListView.swift; sourceTree = "<group>"; };
+		6A9C0E4D9D59CAA7A781706C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		724AFEC16EBD5DA5E062CB9A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B4CE76EDEEF85590504745DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55FCAD748756A8118372EE3 /* GPXParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXParser.swift; sourceTree = "<group>"; };
+		C8E12BB3E8E59141623425EA /* ExportAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportAnimationView.swift; sourceTree = "<group>"; };
+		E08EE8652C315132DD2EA3B4 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F23156F25563CD81189F50B9 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4024F907C4FB0D81BAFD0960 = {
+			isa = PBXGroup;
+			children = (
+				DC51253A76D51684B4E43AC0 /* FlightReel */,
+				DE9DF44852EAE696DBC19373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC51253A76D51684B4E43AC0 /* FlightReel */ = {
+			isa = PBXGroup;
+			children = (
+				E08EE8652C315132DD2EA3B4 /* AppState.swift */,
+				B4CE76EDEEF85590504745DF /* Assets.xcassets */,
+				24D248A87768A1D10F7193EA /* BlackboxParser.swift */,
+				6A9C0E4D9D59CAA7A781706C /* ContentView.swift */,
+				009D4B1C1EA1B76C73CDAD9F /* ControlsPanel.swift */,
+				C8E12BB3E8E59141623425EA /* ExportAnimationView.swift */,
+				0380918A98E7C3FA28126090 /* FlightReelApp.swift */,
+				C55FCAD748756A8118372EE3 /* GPXParser.swift */,
+				029C5787D6539857F591148B /* LapDetector.swift */,
+				64B3CBCE579FC93ED26E4909 /* LapListView.swift */,
+				63B7AF4B5C2325DEA93D2926 /* MapLayer.swift */,
+				F23156F25563CD81189F50B9 /* MapViewRepresentable.swift */,
+				724AFEC16EBD5DA5E062CB9A /* Models.swift */,
+			);
+			name = FlightReel;
+			path = Sources/FlightReel;
+			sourceTree = "<group>";
+		};
+		DE9DF44852EAE696DBC19373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A04A9A6073933992911D434 /* FlightReel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C61C70E5C4E79518714792 /* FlightReel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF12B9C7BF89AFFFA1FE66D4 /* Build configuration list for PBXNativeTarget "FlightReel" */;
+			buildPhases = (
+				54F0482E4542B52E9699A08B /* Sources */,
+				547E902EB03EDDEA5A206DE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightReel;
+			packageProductDependencies = (
+			);
+			productName = FlightReel;
+			productReference = 1A04A9A6073933992911D434 /* FlightReel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E97D62C5E5D90CA5069339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					66C61C70E5C4E79518714792 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3C95AE7D82F6A9D9474DA48 /* Build configuration list for PBXProject "FlightReel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4024F907C4FB0D81BAFD0960;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C61C70E5C4E79518714792 /* FlightReel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547E902EB03EDDEA5A206DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063C016A90DFDEE89CE2563B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F0482E4542B52E9699A08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3629A2F0938D3D853E81B79 /* AppState.swift in Sources */,
+				22F2E975C76FB44399B6F503 /* BlackboxParser.swift in Sources */,
+				8279E7723A8A74DA2593EAF5 /* ContentView.swift in Sources */,
+				9E1D1A887A88EEB51EE02C7E /* ControlsPanel.swift in Sources */,
+				F868CF8E9036BB93A6D7C1A2 /* ExportAnimationView.swift in Sources */,
+				14FEA2B145359E9A6EF03612 /* FlightReelApp.swift in Sources */,
+				809ED8E7935B921192FF5911 /* GPXParser.swift in Sources */,
+				71E946FC15F48F00716E76F5 /* LapDetector.swift in Sources */,
+				5567821C95D9C232C61A256B /* LapListView.swift in Sources */,
+				9787A1D9C1D3C84C2164F74C /* MapLayer.swift in Sources */,
+				239BF8866D517250AB949A23 /* MapViewRepresentable.swift in Sources */,
+				08BBA8011507A8BA6F90D684 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0926B6982AF0EF25DCADA87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/FlightReel/FlightReel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/FlightReel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flightreel.FlightReel;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		7083E9EFB1B73C1F36E9D0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/FlightReel/FlightReel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/FlightReel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flightreel.FlightReel;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		B194B70A13DE1C3F892E623F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C2265C9AEFE65669B94B96CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C95AE7D82F6A9D9474DA48 /* Build configuration list for PBXProject "FlightReel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2265C9AEFE65669B94B96CA /* Debug */,
+				B194B70A13DE1C3F892E623F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FF12B9C7BF89AFFFA1FE66D4 /* Build configuration list for PBXNativeTarget "FlightReel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0926B6982AF0EF25DCADA87E /* Debug */,
+				7083E9EFB1B73C1F36E9D0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E97D62C5E5D90CA5069339 /* Project object */;
+}
